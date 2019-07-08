@@ -1,0 +1,12 @@
+request:
+  method: POST
+  url: /accounts
+  headers:
+    Content-Type: application/json
+  bodyFromFile: shouldSaveAccountRequest.json
+response:
+  status: 201
+  headers:
+    Content-Type: application/json
+  bodyFromFile: shouldSaveAccountResponse.json
+priority: 1

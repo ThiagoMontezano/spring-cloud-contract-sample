@@ -1,0 +1,10 @@
+request:
+  method: GET
+  url: /accounts/1
+  headers:
+    Content-Type: application/json
+response:
+  status: 200
+  headers:
+    Content-Type: application/json
+  bodyFromFile: shouldFindAnAccountResponse.json
